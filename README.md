@@ -22,7 +22,8 @@ parts of test:
 
 
 Link: source of parts
-ntripclient - by Dirk Stöcker <soft@dstoecker.de>
-              account is needed from  www.igs-ip.net, free, unlimitted
-mmc-utils   - https://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git/
-Opencan     - https://github.com/CANopenNode/CANopenNode
+
+- ntripclient - by Dirk Stöcker <soft@dstoecker.de>
+-               account is needed from  www.igs-ip.net, free, unlimitted
+- mmc-utils   - https://git.kernel.org/pub/scm/linux/kernel/git/cjb/mmc-utils.git/
+- Opencan     - https://github.com/CANopenNode/CANopenNode
