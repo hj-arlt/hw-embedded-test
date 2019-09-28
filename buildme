@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+
+JLEVEL="-j4"
+VERBOSE="V=0"
+
+echo ""
+export TOOLCHAIN_PATH=/home/user/opt/gcc-linaro-arm-linux-gnueabihf-7.2.1/bin
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export CC=${CROSS_COMPILE}gcc
+export CXX=${CROSS_COMPILE}gcc
+export PATH=$TOOLCHAIN_PATH:$PATH
+
+
+echo "--> TOOLCH  -> $TOOLCHAIN_PATH ---"
+echo "--> CROSSCP -> $CROSS_COMPILE ---"
+echo ""
+
+make ARCH=arm clean
+make ARCH=arm BOARD=rpi3 all
