@@ -203,8 +203,8 @@ int ntripInit(struct Args *args, const char *dev, double lat, double lon)
 {
 	args->server = "www.igs-ip.net";
 	args->port = "2101";
-	args->user = "hjarlt";
-	args->password = "all2euref";
+	args->user = "myname";
+	args->password = "mypass";
 	args->nmea = 0;                // string to server $GPGGA
 	args->data = "LEIJ00DEU0";     // Leipzig
 	args->data = nextNtripStream(IGS_SYSTEM, lat, lon);
